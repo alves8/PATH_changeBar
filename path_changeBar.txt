@@ -1,4 +1,3 @@
-#function
 
 def path(string):
     
