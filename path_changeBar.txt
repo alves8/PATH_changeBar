@@ -1,0 +1,15 @@
+def path(string):
+    
+    new_string = ''
+    for char in string:
+        if char == '\\':
+            char ='/'
+        new_string += char
+    
+    return new_string
+
+
+
+#C:\Users\Alves\Desktop\AutoCAD
+a = path(r'C:\Users\Nilson\Desktop\AutoCAD')
+print(a)
