@@ -7,7 +7,7 @@ def path(string):
             char ='/'
         new_string += char
     
-    return new_string
+    return print(new_string)
 
 
 
